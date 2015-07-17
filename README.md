@@ -12,8 +12,8 @@ This is our **Minimal Viable Product(MVP)** - an app that will display the greet
 
 + Create a new application by going to the File menu and picking "New Application..."
 
-+ Call your application “appengine-practice”
-Click the browse button to save the application in the desktop directory.  
++ Name your application “appengine-practice”
++ Click the browse button to save the application in the desktop directory.  
 
 + Enter 8080 in the port field if it's not already there (Not admin port!)
 
@@ -30,7 +30,7 @@ CONGRATS you just made MVP app in Google AppEngine.
 
 ##What did AppEngine do for you?
 
-App Engine created two files in the location specified in the 'path' column of the Launcher.
+App Engine created two files in the location specified in the 'path' column of the Launcher, in this case, this should be your Desktop.
 
 ### App.yaml
 The first file is a configuration file, app.yaml. 
