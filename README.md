@@ -20,11 +20,11 @@ Click the browse button to save the application in the desktop directory.
 + Click Create.
 + Click the green Run button.
 
-+ Open a new google chrome browser and put the url: http://localhost:8080/
++ Open a new google chrome browser and put the url: `http://localhost:8080/`
 
 You should see: Hello, world!
 
-##CONGRATS you just made MVP app in Google AppEngine.
+CONGRATS you just made MVP app in Google AppEngine.
 
 
 
@@ -102,9 +102,9 @@ app = webapp2.WSGIApplication([
     ('/count', CountHandler),
 ], debug=True)
 ```
-You can test this in your browser at http://localhost:8080/count. (If your application is running on a different port number, make sure you use the correct one.)
+You can test this in your browser at `http://localhost:8080/count`. (If your application is running on a different port number, make sure you use the correct one.)
 Once again, your screen says: Hello, world!
 
-It also counts to 100 when we change the url to /count. Our new handler at work!
+It also counts to 100 when we change the url to `/count`. Our new handler at work!
 
 Let’s not be so repetitive. We can continue to edit our application and see the updates immediately in the browser. We can edit our launched app to add all sorts of Python expressions and functions. Go ahead and try it out!
