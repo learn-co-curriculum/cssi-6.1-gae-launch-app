@@ -30,7 +30,11 @@ You should see: Hello, world!
 
 ##What did AppEngine do for you?
 
-It created an app.yaml file that looks like this:
+App Engine created two files in the location specified in the 'path' column of the Launcher.
+
+### App.yaml
+The first file is a configuration file, app.yaml. 
+
 ```yaml
 application: appengine-practice #unique application name
 version: 1 # version 1 of this application’s code
@@ -50,8 +54,8 @@ libraries:
 - name: webapp2
   version: "2.5.2"
 ```
-
-And a main.py file that looks like this:
+### Main.py
+The main.py file is a file that contains python code surrounded by a framework called webapp2. This framework helps link the pages the user sees to the logic we want to perform on the backend. 
 
 ```python
 import webapp2 #imports webapp2
@@ -64,16 +68,15 @@ app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
 ```
-The simplest HTTP response consists of its type and content.
 
 In main.py, first we **import** the webapp2 library to define our **handlers**.
 
-Each **handler** is a **class** with one method that runs to handle the request and generate a response. This is typically called get.
+Each **handler** is a **class** with one method that runs to handle the request and generate a response. The default request to handle is GET.
 
 The last bit of code in main.py is the **route**, which maps the URLs to their handlers.
 
 ##Creating a handler
-Adding a new handler to main.py. There are typically two things to do:
+If you need to create a new handler, there are typically two things to do:
 
 + Create a new handler class with a unique name
 + Add a new route mapping a URL to that handler.
