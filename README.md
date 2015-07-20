@@ -36,7 +36,7 @@ application: appengine-practice #unique application name
 version: 1 # version 1 of this application’s code
 runtime: python27 # running on python 2.7
 api_version: 1 # API version 1
-threadsafe: yes # how AppEngine processes multiple requests simultaneously
+threadsafe: true # how AppEngine processes multiple requests simultaneously
 
 handlers:
 - url: /favicon\.ico
