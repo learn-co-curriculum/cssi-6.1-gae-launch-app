@@ -109,4 +109,4 @@ It also counts to 100 when we change the url to `/count`. Our new handler at wor
 
 Let’s not be so repetitive. We can continue to edit our application and see the updates immediately in the browser. We can edit our launched app to add all sorts of Python expressions and functions. Go ahead and try it out!
 
-<a href='https://learn.co/lessons/cssi-6.1-gae-launch-app' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-6.1-gae-launch-app' title='AppEngine Launching An App'>AppEngine Launching An App</a> on Learn.co and start learning to code for free.</p>
